@@ -1,0 +1,229 @@
+/*基础设置*/
+.container{
+    width:1190px;
+    margin:0 auto;
+}/*版心*/
+/*导航条start*/
+.topbar{
+    height:30px;
+    background-color:#ECECEC;
+}
+.welcome{
+    height:30px;
+    line-height:30px;/*居中*/
+    font-size:0;/*取消空格*/
+    color:#666
+}
+.welcome span,.welcome a{
+    font-size:12px;/*重现*/
+}
+.welcome .hello{
+    margin-right:28px;
+}
+.welcome .Log{
+    padding-right:10px;
+    border-right:1px solid #666;
+}
+.welcome .Reg{
+    padding-left:10px;
+}
+.topbar-nav .list{
+    height:30px;
+    line-height:30px;
+    font-family:serif;
+}
+.topbar-nav .list li{
+    float:left;
+}
+.topbar-nav .list li a{
+    padding:0 15px;
+    border-right:1px solid #666;
+}
+.topbar-nav .list li:first-child a{
+    padding-left:0;
+}
+.topbar-nav .list li:last-child a{
+    padding-right:0;
+    border:0;
+}
+/*导航条end*/
+/*顶部start*/
+.header{
+    height:138px;
+}
+.header .logo img{
+    height:120px;
+    width:210px;
+} 
+.header .search form{
+    margin-top:42px;
+    font-size:0;
+}
+.header .search input{
+    width:510px;
+    height:33px;
+    border:1px skyblue solid;
+    vertical-align:top;
+}
+.header .search button{
+    width:80px;
+    height:36px;
+    background-color: skyblue;
+    border:0;
+    vertical-align:top;
+    font-family:fantasy;
+}
+.header .search img{
+    width:39px;
+    height:36px;
+    vertical-align:top;
+}
+/*顶部end*/
+/*主导航start*/
+.main-nav{
+    height:48px;
+    border-bottom:1px solid skyblue;
+    font-family:'Courier New', Courier, monospace;
+}
+.main-nav .all-types{
+    height:48px;
+    width:190px;
+    background-color:skyblue;
+    line-height:48px;
+    color:white;
+    text-align:center;
+    font-size:16px;
+}
+.navi-list{
+    height:48px;
+    line-height:48px;
+}
+.navi-list li{
+    float:left;
+    margin-right:25px;
+    margin-left:25px;
+    margin-top:2px;
+}
+.all-types img{
+    width:48px;
+}
+.main-nav .yuanshi img{
+    width:48px;
+    height:48px;
+}
+/*主导航end*/
+/*中心start*/
+.main-content .slide-nav{
+    width:190px;
+    height:490px;
+    background-color:white;
+}
+.main-content{
+    margin-top: 10px;
+}
+.main-content .slide-nav li img{
+    margin:3px 1px;
+    height:90px;
+    width:190px;
+    border:0.5px solid black;
+}
+.main-content .slide-nav li:first-child img{
+    margin-top:0;
+    height:90px;
+    width:190px;
+}
+.main-content .banner span img{
+    width:100px;
+    height:100px;
+}
+.main-content .video video{
+    height:488px;
+    width:690px;
+    margin:0 4px;
+}
+.main-content .video{
+    background-image: url(../image/yuanshen.jpg);
+    background-size:73px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.main-content .slide-other{
+    width:300px;
+    height:488px;
+}
+.slide-other .message{
+    width:270px;
+    height:156px;
+    border:1px solid #d9d9d9;
+    padding:0 14px;
+}
+.slide-other .other-nav{
+    margin-top:15px;
+    width:299px;
+    height:315px;
+    overflow:hidden;/*防止塌陷*/
+}
+.message .title{
+    height:39px;
+    line-height:39px;
+    font-size:15px;
+    font-family:cursive;
+    border-bottom:1px solid #d9d9d9;
+}
+.message .msg-list{
+    font-size:12px;
+    font-family:monospace;
+}
+.message .msg-list li{
+    height:26px;
+    line-height:26px;
+}
+.other-nav{
+    border:1px solid #d9d9d9;
+}
+.other-nav-list:first-child{
+    margin-top:19px;
+    margin-bottom:55px;
+}
+.other-nav-list li{
+    width:100px;
+    height:100px;
+    background-color: skyblue;
+    float:left;
+    margin:0 11px;
+}
+.other-nav-list li:first-child{
+    margin-left:37px;
+}
+.other-nav-list img{
+    width:100px;
+    height:100px;
+}
+.other-nav-list span{
+    margin-left:32px;
+}
+/*中心end*/
+/*尾部start*/
+.bottom {
+    font-family:cursive;
+    font-size:17px;
+    margin-top:5px;
+}
+.bottom .xidian img{
+    width:1000px;
+    height:200px;
+}
+.bottom .jiameng{
+    width:188px;
+    height:200px;
+    border:1px solid skyblue;
+}
+.bottom .jiameng img{
+    width:166px;
+    height:166px;
+    margin-left:10px;
+}
+.bottom .jiameng span{
+    margin-left:45px;
+}
+/*尾部end*/
